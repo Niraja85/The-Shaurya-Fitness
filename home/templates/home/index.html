@@ -1,6 +1,27 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %} Home {% endblock %}
+
+{% block page_header %}
+    <div class="container pt-5">
+        <div class="row">
+            <!-- Empty header for spacing -->
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-<h1 class="display-4 text-success">It works</h1>
+    <div class="container mb-7">
+        <!-- Main content -->
+         <div class="row">
+            <div class="col-12 col-lg-5 order-lg-first mt-2 mb-4 py-4">
+                <h1 class="display-4"><span class="fw-bold">Women's fitness clothing-- </span>Make it <span class="class=fw-bold">Comfortable</span> and <span class="fw-bold"></span> Stylish....</h1>
+                <p class="my-4">Fitness for women is as important as looking and feeling good while working out, adds on to your daily motivation to pursue your dream body with our collection of T-shirts, leggings, shorts accessories, you name it. We have it all covered. Go checkout our collection and get that workout done..</p>
+                <p class="my-4"><a href="{}" class="btn btn-outline-dark rounded-0 py-2 theme-btn">Explore Store</a></p>
+            </div>
+         </div>
+
+
+    </div>
 {% endblock %}
