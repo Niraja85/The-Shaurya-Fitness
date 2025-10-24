@@ -33,3 +33,71 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title);
 }
+/** Header */
+header {
+    width: 100vw;
+}
+.logo {
+    width: fit-content;
+}
+.btn-rust {
+    background-color: var(--rust);
+}
+.btn-rust:hover {
+    background-color: var(--blue);
+}
+.text-white {
+    color: var(--white);
+}
+#acc {
+    color: var(--rust);
+}
+#acc:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+.text-acc {
+    color: var(--rust);
+}
+
+#bag {
+    color: var(--rust);
+}
+#bag:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+.text-val {
+    color: var(--rust);
+}
+.dropdown-item {
+    color: var(--rust);
+}
+.dropdown-item:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}

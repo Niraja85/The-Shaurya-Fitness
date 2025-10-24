@@ -2,11 +2,11 @@
 
 <header class="container-fluid fixed-top">
     <!-- Header nav -->
-    <nav id="topnav" class="navbar navbar-expand-lg d-none d-lg-flex">
+    <nav id="topnav" class="navbar navbar-expand-lg d-lg-flex">
         <div class="col-12 col-lg-4 my-auto text-center text-lg-left">
             <!-- Logo -->
-            <a class="navbar-brand" href="{% url 'home' %}">
-                <img src="{% static 'images/Shaurya_logo.webp' %}" alt="The Shaurya Women's Fitness Clothing" width="178" height="130">
+            <a class="navbar-brand main-logo-link" href="{% url 'home' %}" >
+                <img src="{% static 'images/Shaurya_logo.webp' %}" alt="The Shaurya Women's Fitness Clothing" width="178" height="130" class="logo">
             </a>
         </div>
         <div class="col-12 col-lg-4 my-auto">
@@ -15,7 +15,7 @@
                 <div class="input-group w-100">
                     <span class="input-group-text border-dark border-end-0 rounded-0 bg-white pe-0"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span>
                     <input class="form-control border-dark border-start-0 rounded-0" type="text" name="q" placeholder="Search our site" aria-label="Search">
-                    <button class="input-group-text btn btn-brand-pink border-dark rounded-0" type="submit">Search</button>
+                    <button class="input-group-text btn btn-rust border-dark text-white rounded-0" type="submit">Search</button>
                 </div>
             </form>
         </div>
@@ -26,8 +26,8 @@
                     <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
                         <div class="text-center">
-                            <div><i class="fas fa-user fa-lg"></i></div>
-                            <p class="my-0">My Account</p>
+                            <div><i id="acc" class="fas fa-user fa-lg"></i></div>
+                            <p class="my-0 text-acc">My Account</p>
                         </div>
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -46,8 +46,8 @@
                 <li class="list-inline-item">
                     <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                         <div class="text-center">
-                            <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                            <p class="my-0">
+                            <div><i id="bag" class="fas fa-shopping-bag fa-lg "></i></div>
+                            <p class="my-0 text-val">
                                 {% if grand_total %}
                                 €{{ grand_total|floatformat:2 }}
                                 {% else %}
