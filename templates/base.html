@@ -45,15 +45,17 @@
   </head>
 
   <body>
+    <!-- Include Header-->
+    {% include 'includes/header.html' %}
+
+
     {% if messages %}
       <div class="message-container"></div>
     {% endif %}
 
-    <!-- Include Header-->
-    {% include 'includes/header.html' %}
-
     {% block page_header %}
     {% endblock %}
+
 
     {% block content %}
     {% endblock %}
