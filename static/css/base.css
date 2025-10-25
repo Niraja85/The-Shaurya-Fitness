@@ -77,6 +77,11 @@ header {
     color: var(--blue);
     font-weight: bold;
 }
+.text-rust {
+    color: var(--rust);
+    font-family: var(--title);
+    font-weight: bold;
+}
 
 /** Body-Home page */
 
@@ -101,5 +106,12 @@ header {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+/*Media query for small screens */
+/* Home Page */
+@media (min-width: 576px) and (max-width:770px) {
+    #icon {
+        color: var(--rust);
     }
 }

@@ -2,17 +2,16 @@
 {% load static %}
 
 {% block extra_title %} Home {% endblock %}
-
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <!-- Empty header for spacing -->
+            <div class="col"></div>
         </div>
     </div>
 {% endblock %}
 
 {% block content %}
-    <div class="container mt-5 mb-2">
+    <div class="container h-100 mt-5 mb-2">
         <!-- Main content -->
         <div class="row h-100">
             <div class="col-12 col-lg-5 order-lg-first mb-4">
@@ -21,7 +20,7 @@
                 <p class="my-4"><a href="{}" class="btn btn-outline-dark btn-rust text-white rounded-0 py-2 theme-btn">Explore Store</a></p>
             </div>
             <div class="col-12 col-lg-7 order-first">
-                <img class="hero-image1" src="{% static 'images/home-image1.jpg' %}" alt="Woman working out in pink workout clothes" width="700" height="400">
+                <img class="image-fluid" src="{% static 'images/home-image1.jpg' %}" alt="Woman working out in pink workout clothes" width="700" height="400">
             </div>
         </div>
 

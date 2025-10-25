@@ -1,26 +1,28 @@
 {% load static %}
 
 <header class="container-fluid fixed-top">
-    <!-- Header nav -->
-    <nav id="topnav" class="navbar navbar-expand-lg d-lg-flex">
-        <div class="col-12 col-lg-4 my-auto text-center text-lg-left">
-            <!-- Logo -->
-            <a class="navbar-brand main-logo-link" href="{% url 'home' %}" >
-                <img src="{% static 'images/Shaurya_logo.webp' %}" alt="The Shaurya Women's Fitness Clothing" width="178" height="130" class="logo">
+    <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+            <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                <img src="{% static 'images/Shaurya_logo.webp' %}" alt="Shaurya women's fitness clothing store" width="178" height="120" id="logo">
             </a>
         </div>
-        <div class="col-12 col-lg-4 my-auto">
-            <!-- Search form -->
-            <form method="GET" action="" class="d-flex">
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <form method="GET" action="">
                 <div class="input-group w-100">
-                    <span class="input-group-text border-dark border-end-0 rounded-0 bg-white pe-0"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span>
-                    <input class="form-control border-dark border-start-0 rounded-0" type="text" name="q" placeholder="Search our site" aria-label="Search">
-                    <button class="input-group-text btn btn-rust border-dark text-white rounded-0" type="submit">Search</button>
+                    <input class="form-control border border-black rounded-0" type="text" name="q"
+                    placeholder="What are you searching for?">
+                    <div class="input-group-append">
+                        <button class="form-control btn btn-black btn-rust text-white border border-black rounded-0" type="submit"> Search
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </form>
         </div>
-        <div class="col-12 col-lg-4 my-auto">
-            <!-- Account + Bag nav-->
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
             <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                 <li class="list-inline-item dropdown">
                     <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
@@ -42,11 +44,11 @@
                         <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                         {% endif %}
                     </div>
-                 </li>
+                </li>
                 <li class="list-inline-item">
                     <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                         <div class="text-center">
-                            <div><i id="bag" class="fas fa-shopping-bag fa-lg "></i></div>
+                            <div><i id="bag" class="fas fa-shopping-bag fa-lg"></i></div>
                             <p class="my-0 text-val">
                                 {% if grand_total %}
                                 €{{ grand_total|floatformat:2 }}
@@ -59,12 +61,11 @@
                 </li>
             </ul>
         </div>
-    </nav>
-
-
-    <div class="row bg-white">
+    </div>
+    <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light w-100">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-navs" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             {% include 'includes/mobile-top-header.html' %}
