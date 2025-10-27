@@ -7,8 +7,10 @@ defusedxml==0.7.1
 django==5.2.7
 django-allauth==0.50.0
 django-crispy-forms==1.14.0
+gunicorn==23.0.0
 idna==3.11
 oauthlib==3.3.1
+packaging==25.0
 pycparser==2.23
 PyJWT==2.10.1
 python3-openid==3.2.0
