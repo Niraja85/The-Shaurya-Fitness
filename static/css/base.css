@@ -32,6 +32,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+p {
+    font-family: var(--main-font);
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title);
@@ -95,6 +98,19 @@ header {
     text-decoration: underline;
     color: var(--blue);
     font-weight: bold;
+}
+.active {
+    font-weight: 500;
+    border-bottom: var(--blue);
+
+}
+
+/* Form */
+.form {
+    width: 100%;
+    margin: 3% auto;
+    box-shadow: var(--small-box-shadow);
+    border-radius: 5px;
 }
 
 /** Body-Home page */
