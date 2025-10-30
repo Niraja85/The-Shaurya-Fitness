@@ -5,13 +5,13 @@ from .models import Product, Category
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    prepopulated_fields = {'slug': ('category_name',)}
-    list_display = ('category_name', 'slug')
+    prepopulated_fields = {'slug': ('name',)}
+    list_display = ('name', 'slug')
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('product_name', 'category', 'price', 'date_added')
-    prepopulated_fields = {'slug': ('product_name',)}
+    list_display = ('name', 'category', 'price', 'date_added')
+    prepopulated_fields = {'slug': ('name',)}
 
 
 admin.site.register(Category, CategoryAdmin)
