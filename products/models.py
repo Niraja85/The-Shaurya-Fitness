@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django_resized import ResizedImageField
 # Create your models here.
 
 
@@ -14,7 +15,7 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
     def __str__(self):
-        return self.category_name
+        return self.name
 
 
 class Product(models.Model):
@@ -29,11 +30,13 @@ class Product(models.Model):
     slug = models.SlugField(max_length=254, null=True, blank=True)
     description = models.TextField(max_length=500, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    image = models.ImageField(upload_to='product_images',)
+    image = ResizedImageField(
+        size=[400, None], quality=75, upload_to='products/',
+        blank=False, null=False)
     date_added = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.product_name
+        return self.name
 
 
 
