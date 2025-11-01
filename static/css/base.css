@@ -66,6 +66,9 @@ header {
 .text-acc {
     color: var(--rust);
 }
+#search {
+    color: var(--rust);
+}
 
 #bag {
     color: var(--rust);
