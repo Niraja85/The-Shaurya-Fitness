@@ -9,7 +9,7 @@ class Category(models.Model):
     A simple model to group products."""
 
     name = models.CharField(max_length=254)
-    slug = models.SlugField(max_length=256, blank=True, null=True)
+    friendly_name = models.CharField(max_length=256, blank=True, null=True)
 
     class Meta:
         verbose_name_plural = 'Categories'
@@ -17,12 +17,15 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+    def get_friendly_name(self):
+        return self.friendly_name
+
 
 class Product(models.Model):
     """Defines the Product Class. Many fields are optional.
     A default image is uploaded if no image is selected.
-    Images will be resized on upload to 500x500px square shape.
-    I would recommend cropping your images to a 1:1 ratio first."""
+    Images will be resized on upload.I would recommend cropping your images
+    to a 1:1 ratio first."""
 
     category = models.ForeignKey('Category', null=True,
                                  blank=True, on_delete=models.SET_NULL)
