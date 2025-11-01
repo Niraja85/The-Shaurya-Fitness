@@ -30,7 +30,6 @@ class Product(models.Model):
     category = models.ForeignKey('Category', null=True,
                                  blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
-    slug = models.SlugField(max_length=254, null=True, blank=True)
     description = models.TextField(max_length=500, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image = ResizedImageField(
