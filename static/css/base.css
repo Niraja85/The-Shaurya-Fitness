@@ -119,6 +119,10 @@ header {
     color: black;
     border: 1px solid black;
 }
+.btn-outline-black:hover {
+    background: var(--rust);
+    color: white;
+}
 .btn-black {
     background: black;
     color: white;
