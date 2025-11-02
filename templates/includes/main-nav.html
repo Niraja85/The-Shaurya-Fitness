@@ -4,13 +4,26 @@
         <li class="nav-item mx-3">
             <a class="font-weight-bold nav-link text-rust mr-5" href="{% url 'home' %}">HOME</a>
         </li>
+
+        <!--Sorting and Filtering-->
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="sorting-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ALL PRODUCTS
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="sorting-link">
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item"> By Price</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+            </div>
+        </li>
+
         <!-- Clothing -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 CLOTHING
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=tshirts,sportsbras" class="dropdown-item">T-Shirts &amp; SportsBras</a>
+                <a href="{% url 'products' %}?category=tshirts" class="dropdown-item">T-Shirt</a>
                 <a href="{% url 'products' %}?category=leggings" class="dropdown-item ">Leggings</a>
                 <a href="{% url 'products' %}?category=shorts" class="dropdown-item ">Shorts</a>
                 <a href="{% url 'products' %}?category=jackets" class="dropdown-item">Jackets</a>
@@ -25,10 +38,10 @@
                 ACCESSORIES
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Socks</a>
-                <a href="" class="dropdown-item">Sunglasses</a>
-                <a href="" class="dropdown-item">Bagpacks</a>
-                <a href="" class="dropdown-item">Shoes</a>
+                <a href="{% url 'products' %}?category=socks" class="dropdown-item">Socks</a>
+                <a href="{% url 'products' %}?category=sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=backpack" class="dropdown-item">Backpack</a>
+                <a href="{% url 'products' %}?category=shoes" class="dropdown-item">Shoes</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
