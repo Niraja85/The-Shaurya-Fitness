@@ -125,10 +125,6 @@ header {
 	position: fixed;
 	z-index: -1;
 }
-a.category-badge > span.badge:hover {
-    background: var(--rust);
-    color: white;
-}
 
 /** Footer */
 footer {
