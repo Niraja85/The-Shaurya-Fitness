@@ -56,6 +56,9 @@ header {
 .text-white {
     color: var(--white);
 }
+.bg-blue {
+    background-color: var(--blue);
+}
 #acc {
     color: var(--rust);
 }
@@ -65,6 +68,10 @@ header {
 }
 .text-acc {
     color: var(--rust);
+}
+.text-blue {
+    color: var(--blue);
+    font-family: var(--title);
 }
 #search {
     color: var(--rust);
