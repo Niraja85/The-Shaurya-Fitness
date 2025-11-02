@@ -114,6 +114,18 @@ header {
     border-bottom: var(--blue);
 
 }
+.btn-outline-black {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn-black {
+    background: black;
+    color: white;
+}
+.btn-black:hover {
+    background: var(--rust);
+}
 
 /* Form */
 .form {
