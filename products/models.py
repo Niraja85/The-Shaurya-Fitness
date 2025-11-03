@@ -31,6 +31,7 @@ class Product(models.Model):
                                  blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     description = models.TextField(max_length=500, blank=True)
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image = ResizedImageField(
         size=[400, None], quality=75, upload_to='products/',
