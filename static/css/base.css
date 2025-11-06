@@ -189,6 +189,12 @@ footer {
 .bg-brand-blue {
     background-color: var(--blue);
 }
+.btn-beige {
+    background: var(--background);
+    color: var(--blue);
+    box-shadow: var(--small-box-shadow);
+}
+
 
 /* -------------------------------- Media Queries */
 
