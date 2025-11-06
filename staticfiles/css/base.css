@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /** Fonts */
+    --title: 'EB Garamond', serif;
+    --main-font: 'Roboto', serif;
+
+    /** Color */
+    --background: rgb(245, 245, 220);
+    --rusty-red: #DA2C43;
+    --rust: #B7410E;
+    --white: #fff;
+    --off-white: #f6f6f6;
+    --black: #000;
+    --blue: #304674;
+
+    /* Utils */
+    --small-box-shadow: 1px -1px 8px 0 #000000;
+    --border: 1px solid #00000030;
+
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height:400px;
+    margin-bottom: 100px;
+    background-color: var(--background);
+    color: var(--black);
+    font-family: var(--main-font);
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title);
+}
+/** Header */
+header {
+    width: 100vw;
+}
+.logo {
+    width: fit-content;
+}
+.btn-rust {
+    background-color: var(--rust);
+    box-shadow: var(--small-box-shadow)
+}
+.btn-rust:hover {
+    background-color: var(--blue);
+}
+.text-white {
+    color: var(--white);
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+#acc {
+    color: var(--rust);
+}
+#acc:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+.text-acc {
+    color: var(--rust);
+}
+.text-blue {
+    color: var(--blue);
+    font-family: var(--title);
+}
+#search {
+    color: var(--rust);
+}
+
+#bag {
+    color: var(--rust);
+}
+#bag:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+.text-val {
+    color: var(--rust);
+}
+.dropdown-item {
+    color: var(--rust);
+}
+.dropdown-item:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+.text-rust {
+    color: var(--rust);
+    font-family: var(--title);
+    font-weight: bold;
+}
+#main-nav li a {
+    color: var(--rust);
+    font-family: var(--title);
+    font-size: medium;
+}
+#main-nav li a:hover {
+    text-decoration: underline;
+    color: var(--blue);
+    font-weight: bold;
+}
+.active {
+    font-weight: 500;
+    border-bottom: var(--blue);
+
+}
+.btn-outline-black {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn-outline-black:hover {
+    background: var(--rust);
+    color: white;
+}
+.btn-black {
+    background: black;
+    color: white;
+}
+.btn-black:hover {
+    background: var(--rust);
+}
+
+/* Form */
+.form {
+    width: 100%;
+    margin: 3% auto;
+    box-shadow: var(--small-box-shadow);
+    border-radius: 5px;
+}
+
+/** Body */
+.overlay {
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: -1;
+}
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+
+/** Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    border-top: var(--border);
+
+}
+.bg-brand-blue {
+    background-color: var(--blue);
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+/*Media query for small screens */
+/* Home Page */
+@media (min-width: 576px) and (max-width:770px) {
+    #icon {
+        color: var(--rust);
+    }
+}
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
