@@ -24,7 +24,7 @@
         </div>
         <div class="col-12 col-md-6 p-5">
             <section class="">
-                <form action="" method="POST" class="row d-flex justify-content-center newsletter-form ">
+                <form action="{% url 'newsletter' %}" method="POST" class="row d-flex justify-content-center newsletter-form ">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="col-auto">
