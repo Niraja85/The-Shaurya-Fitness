@@ -1,6 +1,13 @@
+# path to this file: contact\urls.py
 from django.urls import path
-from . import views
 
+# Import the view
+from .views import ContactView
+
+# Set the app_name
+app_name = "contact"
+
+# Set the urlpatterns
 urlpatterns = [
-    path('', views.contact_view, name='contact'),
+    path("", ContactView.as_view(), name="contact"),
 ]
