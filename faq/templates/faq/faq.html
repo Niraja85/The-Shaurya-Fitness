@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %} FAQ {% endblock %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="section">
+    <div class="container">
+        <div>
+            {% for rs in faq %}
+            <h3 class="d-flex text-align-left">{{ rs.question }}</h3><br>
+            <p>{{ rs.answer }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
