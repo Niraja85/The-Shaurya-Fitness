@@ -176,7 +176,11 @@ header {
 .toast-capper {
     height: 2px;
 }
-
+/** Contact */
+.text-contact {
+    text-align: center;
+    color: var(--blue);
+}
 
 /** Footer */
 footer {
