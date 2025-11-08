@@ -22,25 +22,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-md-6 p-5">
-            <section class="">
-                <form action="{% url 'newsletter' %}" method="POST" class="row d-flex justify-content-center newsletter-form ">
-                    {% csrf_token %}
-                    {{ form | crispy }}
-                    <div class="col-auto">
-                        <h5 class="pt-2 text-light">Subscribe to our newsletter</h5>
-                    </div>
 
-                    <div class="col-auto">
-                        <input id="email" name="email" type="email" class="form-control" placeholder="Your Email address">
-                    </div>
-
-                    <div class="col-auto">
-                        <button type="submit" class="btn btn-beige rounded-0">Subscribe</button>
-                    </div>
-                </form>
-            </section>
-        </div>
         <div class="row">
             <div class="col-12 p-5">
                 <a href="https://www.termsfeed.com/live/6e5672bc-c791-471e-92ec-eeb8809b6364" target="_blank" class="text-light">Privacy Policy</a>
