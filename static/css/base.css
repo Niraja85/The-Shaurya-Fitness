@@ -59,6 +59,8 @@ header {
 .bg-blue {
     background-color: var(--blue);
 }
+
+/** Account styles */
 #acc {
     color: var(--rust);
 }
@@ -188,8 +190,9 @@ footer {
     flex-direction: column;
     flex-shrink: 0;
     border-top: var(--border);
-
 }
+
+
 .bg-brand-blue {
     background-color: var(--blue);
 }
