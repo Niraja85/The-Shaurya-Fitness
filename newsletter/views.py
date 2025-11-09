@@ -1,4 +1,4 @@
-from django.shortcuts import redirect, reverse
+from django.shortcuts import redirect
 from django.contrib import messages
 from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
@@ -12,7 +12,7 @@ def subscribe(request):
 
         if not email:
             messages.error(request, "You must type a valid email address")
-            return redirect(reverse, ('home'))
+            return redirect(('home'))
         try:
             validate_email(email)
         except ValidationError as e:
