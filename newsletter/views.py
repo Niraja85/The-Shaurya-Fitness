@@ -20,8 +20,15 @@ def newsletter_subscribe(request):
     context = {
         'form': form,
         }
-    template = "newsletter/subscribe.html"
+    template = 'newsletter/subscribe.html'
+
     return render(request, template, context)
+
+
+
+
+
+
 
 
 

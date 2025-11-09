@@ -201,7 +201,9 @@ footer {
     color: var(--blue);
     box-shadow: var(--small-box-shadow);
 }
-
+.newsletter-form {
+    align-content: center;
+}
 
 /* -------------------------------- Media Queries */
 
