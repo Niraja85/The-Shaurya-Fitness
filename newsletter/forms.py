@@ -4,14 +4,17 @@ from .models import Newsletter
 
 
 class NewsletterForm(forms.ModelForm):
-    helper = FormHelper()
-    helper.for_show_labels = False
 
     class Meta:
         model = Newsletter
         fields = ['email']
 
-        def clean_email(self):
-            email = self.cleaned_data.get('email')
+    def __init__(self, *args, **kwargs):
+        super(NewsletterForm, self).__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_method = 'post'
 
-            return email
+    def clean_email(self):
+        email = self.cleaned_data.get('email')
+
+        return email
