@@ -18,3 +18,5 @@ When testing the site, please use the following from Stripe's testing documentat
 - a Stripe test card number, such as 4242 4242 4242 4242.
 - a future expiry date, such as 04/26.
 - any three-digit CVC.
+
+
