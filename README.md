@@ -15,6 +15,6 @@ The payment system uses Stripe. Please note that this website is for educational
 
 When testing the site, please use the following from Stripe's testing documentation:
 
-a Stripe test card number, such as 4242 4242 4242 4242, or 4000 0582 6000 0005 for UK.
-a future expiry date, such as 04/26.
-any three-digit CVC.
+- a Stripe test card number, such as 4242 4242 4242 4242.
+- a future expiry date, such as 04/26.
+- any three-digit CVC.
