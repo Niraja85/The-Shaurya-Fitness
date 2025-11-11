@@ -1,1 +1,4 @@
 User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/sitemap.xml
