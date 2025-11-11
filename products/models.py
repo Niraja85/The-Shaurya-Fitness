@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from django_resized import ResizedImageField
+from cloudinary.models import CloudinaryField
 # Create your models here.
 
 
@@ -33,7 +33,7 @@ class Product(models.Model):
     description = models.TextField(max_length=500, blank=True)
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    image = models.ImageField(upload_to='products/', blank=False, null=False)
+    image = CloudinaryField(blank=False, null=False)
     date_added = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
