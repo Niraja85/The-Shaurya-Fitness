@@ -251,6 +251,68 @@ Inspired by earthy and organic tones of color, I settled on the following colour
 
 ![Palette](docs/design/design-color-palette.png)
 
+### Font
+
+[Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) is the font used throughout the site and the title uses [EB Garamond](https://fonts.google.com/specimen/EB+Garamond). Both are easy to read fonts, with just enough character to make it modern different and unique.
+
+### Images
+
+The photographs used in throughout the app are all wonderful photographs from Unsplash.
+
+### Bootstrap
+
+I opted for Bootstrap 4 as I followed the Boutique_Ado walkthrough project and it helped me install django countries, django version 5.2.7, django all auth and django crispy forms eith compatible versions for the project.
+
+*Go back to the [top](#table-of-contents)*
+
+# Agile
+
+I used Agile development methodologies, and the project was broken up into Epics. These Epics roughly translate to apps within the Django project. Each User Story was added to it's relevant Epic, and each User Story was further broken down into smaller tasks.
+
+## Epics
+
+- Products
+- Profiles
+- Cart / bag
+- Homepage
+- Checkout
+- Newsletter
+- Contact
+- FAQ
+
+----
+
+# Features
+
+Everything that was scheduled to be added to the app has been implemented.
+
+## Header
+
+On opening the site, users will be welcomed by a muted beige colored page with pops of color added by rust red icons and Nav-Bar links and buttons.
+
+- The header has a free delivery threshold banner in a pop of blue color, to let users know that they can get free shipping if they place an order over €40.
+- On larger screens, the logo sits in the top left. This is moved to an offcanvas (slide in) menu on smaller screens to reduce the header size.
+- On larger screens, there is a search form in the centre. This is also moved to the offcanvas (slide in) menu on smaller screens.
+- The "Account" button displays a dropdown menu that provides links for "Register" and "Login", allowing users to either register for a new account, or login with an existing one. Once logged in, the links update to "My Profile" and "Logout". If logged in as a superuser, there is also a "Product Management" link available here.
+- The bag button opens up a mini version of the bag page. If there are no items in the bag, it will show a button to "Continue shopping". If there are items, it will display a summary of these, along with a subtotal, delivery charge and grand total.
+- The main navigation contains the "Home", "All Products", "Clothing", "Accessories", "Contact" and "FAQ" links, helping users to easily navigate to the main parts of the site.
+- On smaller screens, the main navigation is replaced with a "hamburger" icon on the left side. Clicking on the hamburger button reveals the offcanvas menu with main navigation and its dropdown links, leaving just the search, "Account" and bag buttons visible for easy access.
+
+![Header_Screenshot](docs/features/header.png)
+![Header-Mobile](docs/features/header-mob.png)
+
+## Footer
+
+The footer compliments the primary beige colour of the site by using a dark blue.
+
+- The "keep in touch" section provides social media icons that (would) connect to the company's various social media accounts. These are external links and open in a separate tab for convenience, and to allow the user to return to the site easily.
+- There's a button to subscribe to the newsletter. This opens in a new window so the user can enter their email address.  If the user has not already subsribed, they will see a success message. If they have already subscribed, they will see a message stating this.
+- There are Links to the "Privacy Policy" "Terms & Conditions". These three pages help SEO by allowing spiderbots to crawl the site easily, and providing more trust, for both users and search engines.
+- The organisation logos and links of the Rainforest Alliance and Fairtrade sit on the right. Should the chocolate be manufactured, these two logos would also be on the packaging. They're the main organisations that work to protect the environment and the communities within countries that supply cacao.
+- At the very bottom is the copyright, along with a disclaimer that this is an educational site only.
+
+
+
 
 
 

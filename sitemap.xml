@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/accounts/login/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/bag/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=T-shirt</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Leggings</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Shorts</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Jackets</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=T-shirt,Leggings,Shorts,Jackets</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Socks</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Sunglasses</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Backpack</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Shoes</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/?category=Socks,Sunglasses,Backpack,Shoes</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/contact/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/faq/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/newsletter/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:56/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:35/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:33/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:34/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:25/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:36/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:45/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:21/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:1/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:24/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:44/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:6/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:22/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:4/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:7/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:13/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:23/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:46/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:17/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:2/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:8/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:11/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:18/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:14/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:15/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:26/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:19/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:20/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:16/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:12/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:10/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:5/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:3/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:9/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:50/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:42/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:41/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:54/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:27/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:47/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:28/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:37/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:29/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:38/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:30/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:48/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:31/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:39/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:32/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:40/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:49/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:52/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:43/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:51/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/products/int:53/</loc>
+  <lastmod>2025-11-11T21:41:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
