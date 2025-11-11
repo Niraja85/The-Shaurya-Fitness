@@ -234,6 +234,26 @@ The website uses a well-known and well-experienced web design pattern, to provid
 <img src="docs/wireframes/wireframe-faq.png">
 </details>
 
+*Go back to the [top](#table-of-contents)*
+
+----
+## Surface
+I wanted to create a modern yet a website with neutral organic tones of color, unlike usual clothing websites that have a black and white layout. Hence chose colorsl ike like beige and rust red with a pop of light navy blue to be added on the banner and footer.
+These are the keywords to lead the brand design:
+
+- Earthy
+- Modern
+- Friendly
+
+### Colours
+
+Inspired by earthy and organic tones of color, I settled on the following colour palette.
+
+![Palette](docs/design/design-color-palette.png)
+
+
+
+
 
 
 
