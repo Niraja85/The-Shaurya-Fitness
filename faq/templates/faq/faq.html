@@ -13,6 +13,12 @@
 {% block content %}
 <div class="section">
     <div class="container">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">FAQ</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
         <div>
             {% for rs in faq %}
             <h3 class="d-flex text-align-left">{{ rs.question }}</h3><br>

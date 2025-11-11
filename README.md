@@ -213,8 +213,28 @@ Thanks to DBeaver that helped me create the diagram of models.
 The website uses a well-known and well-experienced web design pattern, to provide a comforting and predictable experience to users. With the logo in the top left, navigation in the middle and important links in the top right. Each page has a large title, except for the product detail page. The header and footer on each of the longer pages matches, allowing users to quickly find their way around. The main page wireframes, with help from Balsamiq, are shown below.
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/Home_wireframe.png">
+<img src="docs/wireframes/wireframe-home.png">
 </details>
+<details><summary>Bag</summary>
+<img src="docs/wireframes/wireframe-bag.png">
+</details>
+<details><summary>All Products</summary>
+<img src="docs/wireframes/wireframe-all-products.png" >
+</details>
+<details><summary>Product Details</summary>
+<img>
+</details>
+<details><summary>Checkout</summary>
+<img>
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframe-contact.png">
+</details>
+<details><summary>FAQ</summary>
+<img src="docs/wireframes/wireframe-faq.png">
+</details>
+
+
 
 
 
