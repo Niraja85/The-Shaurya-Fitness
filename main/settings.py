@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 import os
 import dj_database_url
-import cloudinary_storage
 from pathlib import Path
 if os.path.isfile('env.py'):
     import env
@@ -207,11 +206,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Cloudinary Settings
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dwcladgtm',
-    'API_KEY': '127685913151286',
-    'API_SECRET': 'VD_CbdYdnFkXHeFe_ueGI2OgXlY',
-}
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
 

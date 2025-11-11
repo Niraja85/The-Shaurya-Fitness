@@ -13,6 +13,7 @@ class NewsletterForm(forms.ModelForm):
         super(NewsletterForm, self).__init__(*args, **kwargs)
         self.helper = FormHelper()
         self.helper.form_method = 'post'
+        self.helper.form_show_labels = False
 
     def clean_email(self):
         email = self.cleaned_data.get('email')
