@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary_storage',
+    'cloudinary',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
@@ -63,11 +65,8 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
-    'cloudinary',
-    'cloudinary_storage',
     'djrichtextfield',
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
