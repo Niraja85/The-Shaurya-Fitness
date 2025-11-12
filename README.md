@@ -223,10 +223,10 @@ The website uses a well-known and well-experienced web design pattern, to provid
 <img src="docs/wireframes/wireframe-all-products.png" >
 </details>
 <details><summary>Product Details</summary>
-<img>
+<img src="docs/wireframes/wireframe-product-details.png">
 </details>
 <details><summary>Checkout</summary>
-<img>
+<img src="docs/wireframes/wireframe-checkout.png">
 </details>
 <details><summary>Contact</summary>
 <img src="docs/wireframes/wireframe-contact.png">
@@ -613,7 +613,6 @@ As this is an educational project, it will not be maintained in the future. Howe
 - Stock control.
 - Better form validation.
 - CMS / product management dashboard for superusers.
-- User permissions / groups to allow staff to have non-breaking access to the CMS.
 - Link up user profiles and subscription list.
 - Further improve user experience.
 - A blog to help increase traffic to the site.
