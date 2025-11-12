@@ -23,8 +23,9 @@ Project-portfolio-5
   - [Header](#header)
   - [Footer](#footer)
   - [Homepage](#homepage)
-  - [Producers](#producers)
-  - [Products / Store](#products--store)
+  - [All Products](#all-products)
+  - [Clothing](#clothing)
+  - [Accessories](#accessories)
   - [Product Details](#product-details)
   - [Bag / Cart](#bag--cart)
   - [Checkout](#checkout)
@@ -408,6 +409,251 @@ The product management page is available to superusers only.
 ![Product_management](docs/features/Product_management.png)
 
 ![Edit_or_delete_product](docs/features/edit_delete_products.png)
+
+![Edit_product](docs/features/Edit_product.png)
+
+## Error Pages
+
+The app has custom error pages for 404, 403 and 500 errors.
+
+- A 404 is a "page not found" error, and extremely common. Therefore, it's a great idea to add a custom error page to keep it user-friendly, and to lead users back to the main site.
+- A 403 is an authentication error. This will show if a user attempts to access an area of the site that they're not allowed to see.
+- If a user is logged out and trying to access a forbidden page, such as `/producers/add/`, they'll be redirected to the login page. If they're already logged in, but not a superuser and try to access the same page, they'll see the 403 error page.
+- A 500 error is a server error. Hopefully, this won't show up. But if it does, it will show the same template as the above two error pages.
+
+
+*Go back to the [top](#table-of-contents)*
+
+----
+
+# Marketing Strategy Implementation
+
+## Branding
+
+Brand assets help to keep customers engaged on a site. Remaining consistent with the branding, and keeping it friendly and of a high quality, helps customers to trust the brand and are therefore more likely to make a purchase.
+
+The brand is explained in more detail in the [Surface](#surface) section.
+
+## SEO
+
+Most people will find a website via a search engine, so it’s good to cover SEO to make sure the site is accessible by search engines. The site has a robots.txt file to allow search engine spiderbots to crawl the site and allow it to be ranked in search results. It also has a sitemap to help the spiderbots to crawl the site faster and fetch all relevant content. Lastly, the site has privacy policy pages to build trust and improve search engine rankings.
+
+## Keywords
+
+Keyword research is an ongoing task that involves checking Google results/tools and using external SEO tools such as SEMrush and Ubersuggest. Keywords are selected by tracking what is trending, keeping an eye on what keywords competitors are using, and selecting a mixture of both long and short tail keywords to use for advertising campaigns and to use within site content.
+
+The meta tags and descriptions have relevant information and keywords and the site is connected to Google Analytics to be able to use Google's helpful keyword finder. In a future version, the addition of a blog with keyword-filled posts would also help to improve SEO, as well as implementing Google Ads.
+
+## Newsletter
+
+Visitors to the site do not need to be customers to sign up to the newsletter. Any user can sign up from the footer of any page on the site. This helps the business to share information with potential customers, including sales/offers and increase conversions.
+
+## Social media
+
+Social media marketing is a great way to become identifiable in a target market. And adds extra links in search engines for the business. For this site, a Facebook business page has been created, carrying over the branding to match the website.
+
+![Facebook](docs/design/FB_Page.png)
+
+*Go back to the [top](#table-of-contents)*
+
+---
+
+# Testing
+
+Please see the [Testing page](TESTING.md) for information on testing and validation.
+
+*Go back to the [top](#table-of-contents)*
+
+----
+# Technologies used
+
+- Version control: Git + Github
+- Deployment: Heroku
+- Database: PostgreSQL
+- Media + static: Cloudinary and White noise
+- Payment gateway: Stripe
+
+## Languages
+
+- HTML5
+- CSS3
+- Python
+- JavaScript / JQuery
+
+## Libraries / Frameworks
+
+- Django 5.2
+- Bootstrap 4.6
+- Font Awesome 6
+
+*Go back to the [top](#table-of-contents)*
+
+---
+
+# Running Locally
+
+## Prerequisites
+
+- Python 3.12.8
+
+## Installation
+
+1. Clone the Github repo to the desired location on your computer.
+   ```sh
+   git clone git@github.com:niraja85/the-shaurya-fitness.git
+   cd the-shaurya-fitness
+   ```
+2. Create and run a Python virtual environment in terminal.
+   ```sh
+   python3 -m venv env
+   . env/bin/activate
+   ```
+3. Install the Python dependencies from `requirements.txt`.
+   ```sh
+   pip3 install -r requirements.txt
+   ```
+4. Create an `env.py` based on the `sample-env.py` file.
+   1. Create and add a [Django secret key](https://django-secret-key-generator.netlify.app/).
+   2. If you'd like to test checkout payments, you'll need a [Stripe account](https://stripe.com/en-gb).
+5. Make migrations to prepare the database. This will create a `db.sqlite3` in the root. Remove the flags when happy to proceed.
+   ```sh
+   python3 manage.py makemigrations --dry-run
+   python3 manage.py migrate --plan
+   ```
+6. Create a new superuser.
+   ```sh
+   python3 manage.py createsuperuser
+   ```
+7. Run the site locally.
+   ```sh
+   python3 manage.py runserver
+   ```
+
+*Go back to the [top](#table-of-contents)*
+
+---
+
+# Deployment
+
+## Prerequisites
+
+- Have the project running locally (see [Running Locally](#running-locally)).
+- A [Heroku account](https://signup.heroku.com/).
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli).
+- An [Cloudinary account](https://cloudinary.com/).
+
+For full functionality:
+
+- A [Stripe account](https://stripe.com/en-gb) for the payment gateway.
+- A [Gmail account](https://www.google.com/intl/en-GB/gmail/about/) for email SMTP.
+
+### Development Setup
+
+This project uses a Python virtual environment located at `.venv`.
+
+#### Using VS Code (Recommended)
+- VS Code is configured to automatically use this environment via `.vscode/settings.json`.
+- If you open the project folder in VS Code, it will activate the environment automatically.
+
+#### Manual Setup (If Needed)
+
+If the environment doesn’t activate automatically, you can activate it manually by pasting it on terminal:
+`.venv\Scripts\Activate.ps1`
+
+### Version Control
+
+The site was created using the Visual Studio Code editor and pushed to github to the remote repository ‘The Olive Green’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Heroku Deployment
+
+The site was deployed to Heroku. The steps to deploy are as follows:
+
+- Navigate to heroku and create an account
+- Click the new button in the top right corner
+- Select create new app
+- Enter app name
+- Select region and click create app
+- Click the resources tab and search for Heroku Postgres
+- Select hobby dev and continue
+- Go to the settings tab and then click reveal config vars
+- Add the following config vars:
+  - Set the following environment variables on Heroku:
+   ```sh
+   heroku config:set DATABASE_URL='' # postgresql database from heroku
+   heroku config:set EMAIL_HOST_PASS='' # gmail smtp
+   heroku config:set EMAIL_HOST_USER='' # gmail smtp
+   heroku config:set HOST='fancy-new-app.herokuapp.com' # the heroku app URL or live domain
+   heroku config:set CLOUDINARY_URL='' # cloudinary secret key and api key
+   heroku config:set SECRET_KEY='' # the Django secret key
+   heroku config:set STRIPE_PUBLIC_KEY='' # stripe
+   heroku config:set STRIPE_SECRET_KEY='' # stripe
+   heroku config:set STRIPE_WH_SECRET='' # stripe
+- Click the deploy tab
+- Scroll down to Connect to GitHub and sign in / authorize when prompted
+- In the search box, find the repositoy you want to deploy and click connect
+- Scroll down to Manual deploy and choose the main branch
+- Click deploy
+
+The app should now be deployed.
+
+The live link can be found here: [Live Site](https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/)
+
+# Future Development
+
+As this is an educational project, it will not be maintained in the future. However, if it were a live site, some features that I would like to implement are listed below.
+
+- Stock control.
+- Better form validation.
+- CMS / product management dashboard for superusers.
+- User permissions / groups to allow staff to have non-breaking access to the CMS.
+- Link up user profiles and subscription list.
+- Further improve user experience.
+- A blog to help increase traffic to the site.
+
+*Go back to the [top](#table-of-contents)*
+
+---
+
+# Credits
+
+## Media
+
+[Unsplash](https://unsplash.com/) is used for the photography on the site. The license is copyright-free.
+
+## Code
+
+This project was pieced together with the help from Code Institute's resources and the reference material below.
+
+- [Python's documentation](https://docs.python.org/3/index.html)
+- [Django's documentation](https://docs.djangoproject.com/en/3.2/)
+- [Bootstrap's documentation](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
+
+
+# Acknowledgements
+
+I would like to take the opportunity to thank:
+
+- My family, friends for their advice, support and help with testing.
+- My mentor for their feedback, advice and support.
+
+*Go back to the [top](#table-of-contents)*
+
+
+
+
+
+
+
+
+
 
 
 
