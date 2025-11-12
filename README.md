@@ -307,9 +307,115 @@ The footer compliments the primary beige colour of the site by using a dark blue
 
 - The "keep in touch" section provides social media icons that (would) connect to the company's various social media accounts. These are external links and open in a separate tab for convenience, and to allow the user to return to the site easily.
 - There's a button to subscribe to the newsletter. This opens in a new window so the user can enter their email address.  If the user has not already subsribed, they will see a success message. If they have already subscribed, they will see a message stating this.
-- There are Links to the "Privacy Policy" "Terms & Conditions". These three pages help SEO by allowing spiderbots to crawl the site easily, and providing more trust, for both users and search engines.
-- The organisation logos and links of the Rainforest Alliance and Fairtrade sit on the right. Should the chocolate be manufactured, these two logos would also be on the packaging. They're the main organisations that work to protect the environment and the communities within countries that supply cacao.
+- There is Link to the "Privacy Policy". These three pages help SEO by allowing spiderbots to crawl the site easily, and providing more trust, for both users and search engines.
 - At the very bottom is the copyright, along with a disclaimer that this is an educational site only.
+
+¡[Footer](docs/features/Footer.png)
+
+## Homepage
+
+The homepage is a celebration of the company, giving users a warm welcome to the site.
+
+- The starting image is of various accessories and a pragraph about what the website offers, that is, Actiwear for Women". It also has an 'Explore Store' button to redirect users to the Products page.
+
+- It also talk about 'what the new trends are'?
+- And lastly the image displays on how women can get answers about various fitnessa nad website related questions answered by following the FAQ page. The 'FAQ' button redirects the users to FAQ page.
+
+![Home_Page_1](docs/features/Home-page-1.png)
+
+![Home-page-2](docs/features/Home-page-2.png)
+
+## All Products
+- It has two filter dropdowns to search for products 'By Price' and 'By category'.
+- It also has a link to All Products to guide users to all products page.
+- If a user were to use the search form in the header, they would be brought to this same page, but with their search results visibile instead of the full list of products.
+
+![All_Products](docs/features/All-Products.png)
+
+![All_Products_small_screens](docs/features/All_products-Sm-screen.png)
+
+## Clothing
+- This link displays only Clothing dropdown list such as T-shirts, Leggings, Shorts, All Clothong and All Products links.
+- This has been created to make the search category easy instead of browsing through the entire Products search. User can choose the category of item they want to purchase and they will be guided only to those products.
+- A sort category is vailable on all pages of products to sort items in alphabetical order, by price(low-high) or (high to low).
+
+![Clothing](docs/features/Clothing.png)
+
+## Accessories
+- This link displays only Accessories dropdown list such as Socks, Sunglasses, Backpack, Shoes, All Accessories and All Products links.
+- This has been created to make the search category easy instead of browsing through the entire Products search. User can choose the category of item they want to purchase and they will be guided only to those products.
+- A sort category is vailable on all pages of products to sort items in alphabetical order, by price(low-high) or (high to low).
+
+![Accessories](docs/features/Accessories.png)
+
+## Product Details
+
+The Product Details page provides further information about the selected product.
+
+- There is a large image of the product on the left side.
+- The price, size and description are shown on the right side.
+- The user has the option to choose a quantity and add the item to the bag. The quantity form has a minimum of 1 and a maximum of 99.
+- When logged in as a superuser, extra buttons appear on the product images: "Update product" and "Delete product". These give the superuser quick access. The update button opens up the Product Management page for that particular product. The delete button directly deletes the product, so any product must be deleted with caution.
+
+![Sunglasses_Details](docs/features/Product_details.png)
+
+## Checkout
+
+The checkout page displays a bag summary on the right side, followed by the same subtotal, delivery cost and grand total that we've seen in the bag already.
+
+- The left side shows a tidy form to collecting the user's contact and shipping information.
+- Below this is an option to register an account or login to save the details to their profile.
+- Once logged in, this paragraph changes to a checkbox "Save to profile". If checked, the user's contact and shipping information will be saved to the user's profile to be autofilled should they place another order.
+- At the bottom of the form is the Stripe field for the user's payment information.
+- Lastly, there is a button to "Return to Bag", should the user not be ready to checkout just yet. And a button for "Secure Checkout", with the payment amount underneath. Clicking on this will process the payment.
+- The form uses Django's form validation and cross site request forgery protection.
+
+![Checkout](docs/features/Checkout.png)
+
+## Order Confirmation / history
+
+Once a user has checked out, they'll see an order confirmation page.
+
+- The page thanks the user for placing their order, and let's them know that they will receive a confirmation via email as well. The email that's sent to the user is sent via Gmail SMTP and contains a summary of the order, along with a confirmation of the address that it will be shipped to.
+- The confirmation page displays all of the order details in a tidy layout, clearly showing the information provided by the user (minus the payment details) and a summary of the order.
+- It also displays the date and time of the order, and a truncated order number. The order number is very long and is included in the order confirmation email and the URL, so not required to be shown in full here.
+- This same page can be visited via the Profile page too, to display historical orders.
+
+![Order_History](docs/features/Order-Confirmation.png)
+
+![Order_History_my_profile](docs/features/Order-history-my-profile.png)
+
+## User Profiles
+
+When a user is logged in, they'll have access to the "My Profile" link from the "Account" button's dropdown menu.
+
+- The left side of the page shows the saved information for that user. It's in the format of a form, so the user can make changes and update their profile using the "Update profile" button at the bottom.
+- The user will receive a message when the profile is updated successfully.
+- The default delivery details are used to autofill the checkout form.
+- The right side of the profile view displays any historical orders. Clicking on the order number of these will show the full order details, as mentioned above.
+
+¡[Profile](docs/features/Profile_Order.png)
+
+## Product Management
+
+The product management page is available to superusers only.
+
+- When logged in as a superuser, the "Product Management" link becomes available in the "Account" button's dropdown menu.
+- The Product Management page offers a form for the superuser to add products to the store.
+- This same form is used if a superuser chooses to edit a product, either from the Products page or the Product Detail pages. Except the fields will be pre-filled with the information for the product that was selected to be updated.
+- For updating, the header changes slightly to say "Update a product" instead of "Add a product". And there is a note in read stating which product the superuser is making changes to.
+
+![Product_management](docs/features/Product_management.png)
+
+![Edit_or_delete_product](docs/features/edit_delete_products.png)
+
+
+
+
+
+
+
+
 
 
 

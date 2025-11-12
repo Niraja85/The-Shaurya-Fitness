@@ -1,5 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
-from django.views.decorators.http import require_POST
+from django.views.decorators.http import (
+    require_http_methods,
+    require_POST,
+    require_safe,
+)
 from django.contrib import messages
 from django.conf import settings
 
@@ -31,6 +35,7 @@ def cache_checkout_data(request):
         return HttpResponse(content=e, status=400)
 
 
+@require_http_methods(["GET", "POST"])
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
@@ -122,8 +127,6 @@ def checkout(request):
         else:
             order_form = OrderForm()
 
-        # in the video, the below code is not indented properly
-        # this is the correct indentation
         if not stripe_public_key:
             messages.warning(request, 'Stripe public key is missing. \
                 Did you forget to set it in your environment?')
@@ -139,6 +142,7 @@ def checkout(request):
         # end of the corrected indentation
 
 
+@require_safe
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
