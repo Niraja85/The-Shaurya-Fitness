@@ -562,7 +562,7 @@ If the environment doesn’t activate automatically, you can activate it manuall
 
 ### Version Control
 
-The site was created using the Visual Studio Code editor and pushed to github to the remote repository ‘The Olive Green’.
+The site was created using the Visual Studio Code editor and pushed to github to the remote repository ‘The Shaurya Fitness’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
