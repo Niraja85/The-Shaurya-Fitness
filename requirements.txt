@@ -13,6 +13,7 @@ Django==4.2.23
 django-allauth==0.57.2
 django-cloudinary-storage==0.3.0
 django-crispy-forms==2.4
+django-richtextfield==1.6.2
 google-auth==2.39.0
 google-auth-oauthlib==1.2.1
 google-oauth==1.0.1
