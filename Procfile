@@ -1,1 +1,1 @@
-web: gunicorn the-shaurya-fitness.wsgi:application
+web: gunicorn main.wsgi:application
