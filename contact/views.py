@@ -50,12 +50,18 @@ class ContactView(FormView):
         """Send the email"""
         name = form.cleaned_data["name"]
         email = form.cleaned_data["email"]
+        subject = form.cleaned_data["subject"]
+        subject = render_to_string(
+            "contact/confirmation_emails/confirmation_email_subject.txt",
+            {"subject": subject},
+        )
         message = form.cleaned_data["message"]
         message = render_to_string(
             "contact/confirmation_emails/confirmation_email_body.txt",
             {"name": name, "message": message},
         )
         send_mail(
+            subject,
             message,
             email,
             [settings.EMAIL_HOST_USER],
