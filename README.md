@@ -3,7 +3,7 @@ Project-portfolio-5
 
 [Live Site](https://the-shaurya-fitness-509fd3f24de8.herokuapp.com/)
 
-![Mockup_Image]()
+![Mockup_Image](docs/Mockup-image.png)
 
 ## Table of Contents
 - [The Shaurya Fitness](#the-shaurya-fitness)
