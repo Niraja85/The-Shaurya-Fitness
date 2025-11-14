@@ -64,7 +64,61 @@
 
 ## Accessibility Validation
 
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards. The 2 errors seen are beacuse of not using labels for form-control which is for all pages and a contrast error for signin on register page which is a default in allauth account.
+
+<details><summary>Home-Wave</summary>
+<img src="docs/testing/wave/home-wave.png">
+</details>
+<details><summary>Register</summary>
+<img src="docs/testing/wave/register-wave.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/testing/wave/Products-wave.png">
+</details>
+<details><summary>Product Details</summary>
+<img src="docs/testing/wave/Product-dd.png">
+</details>
+<details><summary>Faq</summary>
+<img src="docs/testing/wave/FAQ-wave.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/testing/wave/Contact-wave.png">
+</details>
+<details><summary>Profile</summary>
+<img src="">
+</details>
+<details><summary>Checkout</summary>
+<img src="">
+</details>
+<details><summary>Order Confirmation</summary>
+<img src="">
+</details>
+<details><summary>Privacy policy</summary>
+<img src="docs/testing/wave/Privacy-policy-wave.png">
+</details>
+
+*Go back to the [top](#table-of-contents)*
+
+## HTML Validation
+
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website.
+
+<details><summary>Home</summary>
+<img src="">
+</details>
+
+## CSS Validation
+
+The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. The CSS passes with 0 errors.
+
+![CSS validation](docs/testing/validation/CSS-validator.png)
+
+*Go back to the [top](#table-of-contents)*
+
+
+
+
+
 
 
 

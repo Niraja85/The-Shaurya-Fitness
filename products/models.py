@@ -33,7 +33,7 @@ class Product(models.Model):
     description = models.TextField(max_length=500, blank=True)
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    image = CloudinaryField(blank=False, null=False)
+    image = CloudinaryField(blank=True, null=True)
     date_added = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
