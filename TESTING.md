@@ -37,6 +37,37 @@
 <details><summary>Product-Detail</summary>
 <img src="docs/testing/lighthouse/Product-detail-LH.png">
 </details>
+<details><summary>FAQ</summary>
+<img src="docs/testing/lighthouse/FAQ-LH.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/testing/lighthouse/Contact-LH.png">
+</details>
+<details><summary>Profile</summary>
+<img>
+</details>
+<details><summary>Checkout</summary>
+<img>
+</details>
+<details><summary>Order Confirmation</summary>
+<img>
+</details>
+<details><summary>Privacy Policy</summary>
+<img src="docs/testing/lighthouse/Privacy-policy-LH.png">
+</details>
+
+*Go back to the [top](#table-of-contents)*
+
+---
+
+# Accessibility
+
+## Accessibility Validation
+
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.
+
+
+
 
 
 
