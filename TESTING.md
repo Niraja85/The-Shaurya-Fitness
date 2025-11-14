@@ -34,7 +34,7 @@
 <details><summary>Products</summary>
 <img src="docs/testing/lighthouse/Products-LH.png">
 </details>
-<details><summary>Products</summary>
+<details><summary>Product-Detail</summary>
 <img src="docs/testing/lighthouse/Product-detail-LH.png">
 </details>
 
