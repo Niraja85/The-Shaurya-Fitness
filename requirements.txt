@@ -6,7 +6,6 @@ charset-normalizer==3.4.1
 cloudinary==1.44.1
 colorama==0.4.6
 crispy-bootstrap5==2025.6
-
 cryptography==44.0.2
 defusedxml==0.7.1
 dj-database-url==1.2.0
@@ -23,6 +22,7 @@ gspread==6.2.0
 gunicorn==20.1.0
 idna==3.10
 oauthlib==3.2.2
+ply==3.11
 psycopg2-binary==2.9.9
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
@@ -34,8 +34,10 @@ python3-openid==3.2.0
 requests==2.32.3
 requests-oauthlib==2.0.0
 rsa==4.9
+setuptools==80.9.0
 six==1.17.0
 sqlparse==0.5.3
 stripe==13.2.0
 typing_extensions==4.13.2
 urllib3==2.4.0
+whitenoise==6.11.0
