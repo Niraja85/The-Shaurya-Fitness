@@ -1,4 +1,4 @@
-# The shaurya Fitness Testing
+# The Shaurya Fitness Testing
 [Return to the README](README.md)
 
 ## Table of Contents

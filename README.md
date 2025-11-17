@@ -640,8 +640,8 @@ This project was pieced together with the help from Code Institute's resources a
 
 I would like to take the opportunity to thank:
 
-- My family, friends for their advice, support and help with testing.
-- My mentor for their feedback, advice and support.
+- My family for their advice, support and help with testing.
+- My mentor and Tom from tutor support for their feedback, advice and support.
 
 *Go back to the [top](#table-of-contents)*
 
