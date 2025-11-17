@@ -205,7 +205,10 @@ Below is a list of everything stumbled upon during development.
 Resolved | Bug | Fix
 :---: | --- | ---
 Yes | Product Images not loading on Heroku  | Change Image field to 'CloudinaryField' in Products Model |
-No | P
+No | New profile not being created on Heroku.Shows 404 error |
+No | Checkout page showing 404 error on Heroku |
+No | Order history not seen on Heroku |
+
 
 
 
