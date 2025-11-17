@@ -5,6 +5,7 @@ cffi==1.17.1
 charset-normalizer==3.4.1
 cloudinary==1.44.1
 colorama==0.4.6
+crispy-bootstrap4==2025.6
 crispy-bootstrap5==2025.6
 cryptography==44.0.2
 defusedxml==0.7.1
