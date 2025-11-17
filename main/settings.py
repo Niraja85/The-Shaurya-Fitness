@@ -64,7 +64,8 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
-    'djrichtextfield',
+    'crispy_bootstrap4'
+    #'djrichtextfield',
 ]
 
 MIDDLEWARE = [
