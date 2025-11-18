@@ -67,13 +67,13 @@ class ContactView(FormView):
             [settings.EMAIL_HOST_USER],
             fail_silently=False,
         )
-        messages.success(self.request, "Your message has been sent!")
+        messages.success(self.request, "Your message has been sent!", extra_tags="contact")
         return super().form_valid(form)
 
     # form_invalid is used to display an error message
     def form_invalid(self, form):
         """Display an error message"""
-        messages.error(self.request, "Please correct the errors below.")
+        messages.error(self.request, "Please correct the errors below.", extra_tags="contact")
         return super().form_invalid(form)
 
     # get_success_url is used to redirect to the success url

@@ -15,7 +15,7 @@ def newsletter_subscribe(request):
                              "alert alert-warning alert-dismissable")
         else:
             instance.save()
-            messages.success(request, 'Thank You for subscribing!!')
+            messages.success(request, 'Thank You for subscribing!!', extra_tags='newsletter')
 
     context = {
         'form': form,

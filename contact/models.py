@@ -27,7 +27,7 @@ class Contact(models.Model):
     )
     # The subject of the contact form submission
     subject = models.CharField(
-        max_length=100, default=True, null=True,
+        max_length=100, default="", null=True,
         validators=[
             RegexValidator(
                 regex=r"^[a-zA-Z0-9\s\-\_\.\,\!\?\']+",
