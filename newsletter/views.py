@@ -11,11 +11,14 @@ def newsletter_subscribe(request):
     if form.is_valid():
         instance = form.save(commit=False)
         if Newsletter.objects.filter(email=instance.email).exists():
-            messages.warning(request, 'Your Email already exists in our database',
+            messages.warning(request,
+                             'Your Email already exists in our database',
                              "alert alert-warning alert-dismissable")
         else:
             instance.save()
-            messages.success(request, 'Thank You for subscribing!!', extra_tags='newsletter')
+            messages.success(request,
+                             'Thank You for subscribing!!',
+                             extra_tags='newsletter')
 
     context = {
         'form': form,
@@ -23,17 +26,3 @@ def newsletter_subscribe(request):
     template = 'newsletter/subscribe.html'
 
     return render(request, template, context)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse)
 from django.views.decorators.http import (
     require_http_methods,
     require_POST,
@@ -6,6 +7,7 @@ from django.views.decorators.http import (
 )
 from django.contrib import messages
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
@@ -82,21 +84,23 @@ def checkout(request):
                             order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
+                        "One of the products in bag wasn't found"
                         "Please call us for assistance!")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',
+                                    args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment")
+            messages.error(request,
+                           "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
@@ -142,6 +146,7 @@ def checkout(request):
         # end of the corrected indentation
 
 
+@login_required
 @require_safe
 def checkout_success(request, order_number):
     """
@@ -150,8 +155,14 @@ def checkout_success(request, order_number):
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
+    # To ensure users only view their own orders
+    if order.user_profile and order.user_profile.user != request.user:
+        messages.error(request, "You do not have permission to view this order.")
+        return redirect('home')
+
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
+
         # Attach the user's profile to the order
         order.user_profile = profile
         order.save()
