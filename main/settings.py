@@ -211,6 +211,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Cloudinary Settings
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
+CLOUDINARY_STORAGE = {
+    'SECURE': True,
+}
+
 
 
 # Default primary key field type
