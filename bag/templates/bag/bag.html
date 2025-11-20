@@ -64,6 +64,9 @@
                                                             </span>
                                                         </button>
                                                     </div>
+                                                    <label for="id_qty_{{ item.item_id }}" class="sr-only">
+                                                        Quantity for {{ item.product.name }}
+                                                    </label>
                                                     <input class="form-control form-control-sm qty_input" type="number"
                                                         name="quantity" value="{{ item.quantity }}" min="1" max="99"
                                                         data-item_id="{{ item.item_id }}"
