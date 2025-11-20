@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block extra_title %} Home {% endblock %}
+
 {% block page_header %}
     <div class="container pt-5">
         <div class="row">
@@ -15,10 +16,20 @@
         <!-- Main content -->
         <div class="row">
             <div class="col-12 col-lg-5 order-lg-first mt-2 mb-4 py-4">
-                <h1 class="display-4"><span class="fw-bold">Activewear Designed for Women</h1>
-                <p class="my-2">Where Performance meets Empowerment. At <strong> Shaurya</strong>, we design activewear that celebrates strength, confidence, and individuality.</p>
-                <p class="my-2">Our fitness wear and accessories are crafted with innovative, breathable fabrics that move with you- keeping you cool, comfortable and ready for anything, whether it's a workout, a run or your daily hustle, we're here to support you in your fitness journey.</p>
-                <p class="my-2"><a href="{% url 'products' %}" class="btn btn-outline-dark btn-rust text-white rounded-0 py-2 theme-btn">Explore Store</a></p>
+                <h1 class="display-4">
+                    <span class="fw-bold">Activewear Designed for Women</span>
+                </h1>
+                <p class="my-2">
+                    Where Performance meets Empowerment. At <strong>Shaurya</strong>, we design activewear that celebrates strength, confidence, and individuality.
+                </p>
+                <p class="my-2">
+                    Our fitness wear and accessories are crafted with innovative, breathable fabrics that move with you – keeping you cool, comfortable and ready for anything. Whether it's a workout, a run or your daily hustle, we're here to support you in your fitness journey.
+                </p>
+                <p class="my-2">
+                    <a href="{% url 'products' %}" class="btn btn-outline-dark btn-rust text-white rounded-0 py-2 theme-btn">
+                        Explore Store
+                    </a>
+                </p>
             </div>
             <div class="col-12 col-lg-7 order-first">
                 <img class="img-fluid" src="{% static 'images/home-image-bg.jpg' %}" alt="Workout gear">
@@ -27,36 +38,50 @@
 
         <div class="row align-items-center py-7">
             <div class="col-12 col-lg-7 order-first">
-                <img class="img-fluid" src="{% static 'images/home-collection.jpg' %}" alt="purple workout wear">
+                <img class="img-fluid" src="{% static 'images/home-collection.jpg' %}" alt="Purple workout wear">
             </div>
 
             <div class="col-12 col-lg-5 order-lg-first mb-4">
-                <h2 class="display-4"><span class="fw-bold">What's Trending Now?</span></h2>
-                <p class="my-4 mb-">
-                    -- High performance leggings that sculpt and support. These are suitable for your Yoga goals, high impact running or you can add them to your athleisure collection.
-                </p>
-                <p class="my-4 mb-">
-                    -- Sports bras that move with you.
-                </p>
-                <p class="my-4 mb-">
-                    -- Accessories that complete your fit-from gym bags to sunglasses. Combine it with a workout, hike or run or use it on a casual day out.
-                </p>
-                <p class="my-4 mb-">
-                    -- Essentials for training, travel and recovery. The right kind of training essentials will make a world of a difference in your performance, and help you reach your fitness goals with ease.
-                </p>
+                <h2 class="display-4">
+                    <span class="fw-bold">What's Trending Now?</span>
+                </h2>
+
+                <!-- Proper list instead of fake bullets -->
+                <ul class="my-4">
+                    <li class="mb-2">
+                        High-performance leggings that sculpt and support. These are suitable for your yoga goals, high-impact running, or your athleisure collection.
+                    </li>
+                    <li class="mb-2">
+                        Sports bras that move with you.
+                    </li>
+                    <li class="mb-2">
+                        Accessories that complete your fit – from gym bags to sunglasses. Combine them with a workout, hike or run, or use them on a casual day out.
+                    </li>
+                    <li class="mb-2">
+                        Essentials for training, travel and recovery. The right training essentials will make a world of difference in your performance and help you reach your fitness goals with ease.
+                    </li>
+                </ul>
             </div>
         </div>
 
         <div class="row align-items-center py-7">
             <div class="col-12 col-lg-6 order-lg-first">
-            <h3 class="display-4"><span class="fw-bold">For Women Who Move The World.</span></h3>
-            <p class="my-4">Join thousand of women redifining fitness and fashion. To get inspired, motivated and begin your fitness journey, there can be a lot of questions you might have. Do read the Frequently Asked Questions on fitness tips, importance of right workout gears and several other questions by visiting the FAQ section. Click the button below.</p>
-            <p class="my-4"><a href="{% url 'faq' %}" class="btn btn-outline-dark btn-rust text-white rounded-0 py-2 theme-btn mt-2">Read FAQs</a></p>
-        </div>
+                <h3 class="display-4">
+                    <span class="fw-bold">For Women Who Move The World.</span>
+                </h3>
+                <p class="my-4">
+                    Join thousands of women redefining fitness and fashion. To get inspired, motivated and begin your fitness journey, you may have lots of questions. Read the frequently asked questions on fitness tips, the importance of the right workout gear and more by visiting the FAQ section. Click the button below.
+                </p>
+                <p class="my-4">
+                    <a href="{% url 'faq' %}" class="btn btn-outline-dark btn-rust text-white rounded-0 py-2 theme-btn mt-2">
+                        Read FAQs
+                    </a>
+                </p>
+            </div>
 
-        <div class="col-12 col-lg-6 order-first">
-            <img class="img-fluid" src="{% static 'images/community-home.jpg' %}" alt="workout together">
+            <div class="col-12 col-lg-6 order-first">
+                <img class="img-fluid" src="{% static 'images/community-home.jpg' %}" alt="Women working out together">
+            </div>
         </div>
     </div>
-
 {% endblock %}

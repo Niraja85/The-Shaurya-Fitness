@@ -26,31 +26,31 @@
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website. There are a couple of issues due to Bootstrap, Stripe and general Heroku slowness.
 
 <details><summary>Home</summary>
-<img src="docs/testing/lighthouse/Home-LH.png" >
+<img src="docs/testing/lighthouse/LH-Home.png" >
 </details>
 <details><summary>Register</summary>
-<img src="docs/testing/lighthouse/Register-LH.png">
+<img src="docs/testing/lighthouse/LH-Register.png">
 </details>
 <details><summary>Products</summary>
-<img src="docs/testing/lighthouse/Products-LH.png">
+<img src="docs/testing/lighthouse/LH-Products.png">
 </details>
 <details><summary>Product-Detail</summary>
-<img src="docs/testing/lighthouse/Product-detail-LH.png">
+<img src="docs/testing/lighthouse/LH-Product-details.png">
 </details>
 <details><summary>FAQ</summary>
-<img src="docs/testing/lighthouse/FAQ-LH.png">
+<img src="docs/testing/lighthouse/LH-Faq.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/testing/lighthouse/Contact-LH.png">
+<img src="docs/testing/lighthouse/LH-Contact.png">
 </details>
 <details><summary>Profile</summary>
-<img>
+<img src="docs/testing/lighthouse/LH-Profile.png">
 </details>
 <details><summary>Checkout</summary>
-<img>
+<img src="docs/testing/lighthouse/LH-Checkout.png">
 </details>
 <details><summary>Order Confirmation</summary>
-<img>
+<img src="docs/testing/lighthouse/LH-Order-Confirmation.png">
 </details>
 <details><summary>Privacy Policy</summary>
 <img src="docs/testing/lighthouse/Privacy-policy-LH.png">
