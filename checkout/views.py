@@ -157,7 +157,7 @@ def checkout_success(request, order_number):
 
     # To ensure users only view their own orders
     if order.user_profile and order.user_profile.user != request.user:
-        messages.error(request, "You do not have permission to view this order.")
+        messages.error(request, "Not permitted to view this order")
         return redirect('home')
 
     if request.user.is_authenticated:

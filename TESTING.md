@@ -169,8 +169,8 @@ BDD, or Behaviour Driven Development, is the process used to test user stories i
 
 User Story | BDD Test | Pass
 --- | --- | :---:
-As a user<br>I want to see an interesting homepage<br>So that I can learn about the store and the type of products it sells | Given that I'm a new visitor to the website<br>When I view/scroll down the homepage<br>Then I should see what they sell and what they care about | pass
-As a user<br>I want to subscribe to a newsletter<br>So that I can receive updates about the store | Given that I am not already subscribed<br>When I click the "Subscribe" button in the footer and enter my email address<br>Then I should see confirmation that I have subscribed to the newsletter | pass
+As a user<br>I want to see an interesting homepage<br>So that I can learn about the store and the type of products it sells | Given that I'm a new visitor to the website<br>When I view/scroll down the homepage<br>Then I should see what they sell and what they care about | Pass
+As a user<br>I want to subscribe to a newsletter<br>So that I can receive updates about the store | Given that I am not already subscribed<br>When I click the "Subscribe" button in the footer and enter my email address<br>Then I should see confirmation that I have subscribed to the newsletter | Pass
 As a user<br>I want to register my profile<br>So that I can save my personal information for future shopping | Given that I'm not already registered<br>When I click on "Account" -> "Register" and submit my information<br>Then I should see confirmation that my profile has been created and I should be able to login |
 As a user<br>I want to view the list of products available<br>So that I can see what the store has to offer | Given that I'm on the homepage<br>When I click on the "Explore Store" button or "Full Range" -> "All Products"<br>Then I should be taken to the Products page where I can see all of the products available | Pass
 As a user<br>I want to see the products filtered by category<br>So that I can narrow down the products and find what I need easier | Given that I'm on the homepage<br>When I click on "Full Range" and a category<br>Then I should only see that particular category's products | Pass
@@ -179,12 +179,13 @@ As a user<br>I want to search for specific products<br>So that I can avoid click
 As a user<br>I want to add products to my bag<br>So that I can save what I might purchase | Given that I'm on a Product Detail page<br>When I click on "Add to bag"<br>Then I should see confirmation that my item has been added to the bag and be able to see it in the mini-bag/Bag | Pass
 As a user<br>I want to remove products from my bag<br>So that I can edit the order before checking out | Given that my bag is not empty and I'm on the Bag page<br>When I click on the remove link<br>Then I expect the item to be removed from the bag and to see confirmation of this | Pass
 As a user<br>I want to edit the quantities of items in my bag<br>So that I can edit the order before checking out | Given that my bag is not empty and I'm on the Bag page<br>When I click on the plus or minus buttons, followed by "Update"<br>Then I should see the quantity and order totals update | Pass
-As a user<br>I want to go through a checkout process<br>So that I can review my bag and add my details to complete my purchase | Given that I'm on the mini-bag/Bag page<br>When I click on "Secure Checkout"<br>Then I should see a form where I can enter my details to start the checkout process |
-As a user<br>I want to provide card details<br>So that I can pay for the products in my cart | Given that I'm on the Secure Checkout page<br>When I've filled in my details and scrolled down<br>Then I should see a section where I can enter my payment details |
-As a user<br>I want to have my payment processed<br>So that I can complete my order | Given that I've entered my personal details and card details on the Secure Checkout page<br>When I click the "Pay Now" button<br>Then I should see confirmation that all is well and my order has been received |
+As a user<br>I want to go through a checkout process<br>So that I can review my bag and add my details to complete my purchase | Given that I'm on the mini-bag/Bag page<br>When I click on "Secure Checkout"<br>Then I should see a form where I can enter my details to start the checkout process | Pass
+As a user<br>I want to provide card details<br>So that I can pay for the products in my cart | Given that I'm on the Secure Checkout page<br>When I've filled in my details and scrolled down<br>Then I should see a section where I can enter my payment details | Pass
+As a user<br>I want to have my payment processed<br>So that I can complete my order | Given that I've entered my personal details and card details on the Secure Checkout page<br>When I click the "Complete Order" button<br>Then I should see confirmation that all is well and my order has been received | Pass
 As a user that's logged in<br>I want my details to be autofilled at checkout<br>So that I can make purchase quicker and easier | Given that I've already filled in my profile information<br>When I next go to checkout<br>Then I should see my details already populated in the checkout form | Pass
 As a superuser<br>I want to add products to the store<br>So that I can offer products to seel and add new products in the future | Given that I'm a logged in superuser<br>When I click on "Account" -> "Product Management"<br>Then I should be able to complete the form and submit for new products to be added to the store | Pass
 As a superuser<br>I want to delete products<br>So that users won't buy unavailable products | Given that I'm a logged in superuser and on the Products or Product Detail page<br>When I click on the "Delete" button<br> then the product is deleted | Pass
+As a logged in user I should be able to visit only my profile and cannot access any other profile<br>so that I security of users are maintained | Pass
 As a user<br>I want to view the FAQ page<br> so that I can get answers to basic questiosns about the website | Anyone can click on the FAQ page from Nav-heading<br>and read about the frequently asked questions about clothing, shipping, costs etc | Pass
 As a user<br>I want to contact the website and drop any message or query<br>so that I can get answers to my questions not listed in FAQ | Anyone can access the contact form and get a confirmation message that the form has been received | Pass
 
@@ -199,9 +200,9 @@ Below is a list of everything stumbled upon during development.
 Resolved | Bug | Fix
 :---: | --- | ---
 Yes | Product Images not loading on Heroku  | Change Image field to 'CloudinaryField' in Products Model |
-No | New profile not being created on Heroku.Shows 404 error |
-No | Checkout page showing 404 error on Heroku |
-No | Order history not seen on Heroku |
+Yes | New profile not being created on Heroku.Shows 404 error | Added Crispy_Bootstrap4 Template pack which was missiong in settings.py
+Yes | Checkout page showing 404 error on Heroku | Added Development = 1 in config vars in Heroku, which showed additional line added in Stripe secret key, removing the new line added removed the error.(This is the error which took the maximum time to fix, hence late submission).
+Yes | Order history not seen on Heroku | Correcting checkout error showed the Order History as well.
 
 
 
