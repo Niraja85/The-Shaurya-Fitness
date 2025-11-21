@@ -395,7 +395,7 @@ When a user is logged in, they'll have access to the "My Profile" link from the 
 - The default delivery details are used to autofill the checkout form.
 - The right side of the profile view displays any historical orders. Clicking on the order number of these will show the full order details, as mentioned above.
 
-¡[Profile](docs/features/Profile_Order.png)
+![Profile](docs/features/Profile_Order.png)
 
 ## Product Management
 
