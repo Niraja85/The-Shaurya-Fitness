@@ -236,13 +236,13 @@ a.footer-link,
 a.nav-link {
     color: #004085;   /* dark blue – high contrast on light background */
 }
-.auth-link {
+a.auth-link {
     color: #8b2c03;          /* darker than the rust colour */
     font-weight: 600;
 }
 
-.auth-link:hover,
-.auth-link:focus {
+a.auth-link:hover,
+a.auth-link:focus {
     color: #5b1c02;
     text-decoration: underline;
 }
