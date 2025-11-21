@@ -136,11 +136,11 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 [JSHint](https://jshint.com/) was used to validate the JavaScript/Jquery of the website. No issues were found.
 
-<details><summary>Stripe handler</summary>
-<img src="docs/testing/validation/Stripe-JS.png">
-</details>
 <details><summary>Quantity handler</summary>
-<img src="docs/testing/validation/Quantity-JS.png">
+<img src="docs/testing/validation/JS-Quantity.png">
+</details>
+<details><summary>Sort Selector</summary>
+<img src="docs/testing/validation/JS-Sort-selector.png">
 </details>
 
 *Go back to the [top](#table-of-contents)*
