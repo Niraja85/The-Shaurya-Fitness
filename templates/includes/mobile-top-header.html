@@ -36,10 +36,10 @@
 
     <!--Account navigation -->
     <li class="list-inline-item dropdown">
-        <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options"
+        <a class="text-black nav-link d-block d-lg-none" href="#"
            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
-                <div><i id="acc" class="fas fa-user fa-lg" aria-hidden="true"></i></div>
+                <div><i id="mob-acc" class="fas fa-user fa-lg" aria-hidden="true"></i></div>
                 <p class="my-0 text-acc">My Account</p>
             </div>
         </a>
@@ -62,7 +62,7 @@
         <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
            href="{% url 'view_bag' %}">
             <div class="text-center">
-                <div><i id="bag" class="fas fa-shopping-bag fa-lg" aria-hidden="true"></i></div>
+                <div><i id="mob-bag" class="fas fa-shopping-bag fa-lg" aria-hidden="true"></i></div>
                 <p class="my-0 text-val">
                     {% if grand_total %}
                         €{{ grand_total|floatformat:2 }}

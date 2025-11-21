@@ -90,6 +90,13 @@ header {
     color: var(--blue);
     font-weight: bold;
 }
+#mob-acc {
+    color: var(--rust);
+}
+#mob-acc:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
 .text-acc {
     color: var(--rust);
 }
@@ -105,6 +112,13 @@ header {
     color: var(--rust);
 }
 #bag:hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+#mob-bag {
+    color: var(--rust);
+}
+#mob-bag:hover {
     color: var(--blue);
     font-weight: bold;
 }
