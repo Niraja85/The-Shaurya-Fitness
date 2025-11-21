@@ -311,7 +311,7 @@ The footer compliments the primary beige colour of the site by using a dark blue
 - There is Link to the "Privacy Policy". These three pages help SEO by allowing spiderbots to crawl the site easily, and providing more trust, for both users and search engines.
 - At the very bottom is the copyright, along with a disclaimer that this is an educational site only.
 
-¡[Footer](docs/features/Footer.png)
+![Footer](docs/features/Footer.png)
 
 ## Homepage
 
