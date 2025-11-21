@@ -69,9 +69,6 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <details><summary>Home-Wave</summary>
 <img src="docs/testing/wave/Wave-Home-page.png">
 </details>
-<details><summary>Register</summary>
-<img src="docs/testing/wave">
-</details>
 <details><summary>Products</summary>
 <img src="docs/testing/wave/Wave-Products.png">
 </details>
@@ -104,16 +101,13 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website.
 
 <details><summary>Home</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-Home.png">
 </details>
 <details><summary>Products</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-Products.png">
 </details>
 <details><summary>Product-details</summary>
-<img src="">
-</details>
-<details><summary>Register</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-product-details.png">
 </details>
 <details><summary>Profiles</summary>
 <img src="">
