@@ -110,19 +110,16 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 <img src="docs/testing/validation/HTML-product-details.png">
 </details>
 <details><summary>Profiles</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-Profile.png">
 </details>
 <details><summary>Faq</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-Faq.png">
 </details>
 <details><summary>Contact</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-Contact.png">
 </details>
 <details><summary>Order Confirmation</summary>
-<img src="">
-</details>
-<details><summary>Privacy Policy</summary>
-<img src="">
+<img src="docs/testing/validation/HTML-Order-confirmation.png">
 </details>
 
 *Go back to the [top](#table-of-contents)*
