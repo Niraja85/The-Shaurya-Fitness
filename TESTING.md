@@ -73,28 +73,28 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <img src="docs/testing/wave">
 </details>
 <details><summary>Products</summary>
-<img src="docs/testing/wave">
+<img src="docs/testing/wave/Wave-Products.png">
 </details>
 <details><summary>Product Details</summary>
-<img src="docs/testing/wave">
+<img src="docs/testing/wave/Wave-Product-Details.png">
 </details>
 <details><summary>Faq</summary>
-<img src="docs/testing/wave/">
+<img src="docs/testing/wave/Wave-Faq.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/testing/wave/">
+<img src="docs/testing/wave/Wave-Contact.png">
 </details>
 <details><summary>Profile</summary>
 <img src="docs/testing/wave/Wave-Profile.png">
 </details>
 <details><summary>Checkout</summary>
-<img src="">
+<img src="docs/testing/wave/Wave-Checkout.png">
 </details>
 <details><summary>Order Confirmation</summary>
-<img src="">
+<img src="docs/testing/wave/wave-Order.png">
 </details>
 <details><summary>Privacy policy</summary>
-<img src="docs/testing/wave/Privacy-policy-wave.png">
+<img src="docs/testing/wave/Wave-Policy.png">
 </details>
 
 *Go back to the [top](#table-of-contents)*
@@ -145,17 +145,11 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 [JSHint](https://jshint.com/) was used to validate the JavaScript/Jquery of the website. No issues were found.
 
-<details><summary>Base JS</summary>
-<img src="">
-</details>
-<details><summary>Country field handler</summary>
-<img src="">
-</details>
-<details><summary>Sort selector</summary>
-<img src="">
-</details>
 <details><summary>Stripe handler</summary>
-<img src="">
+<img src="docs/testing/validation/Stripe-JS.png">
+</details>
+<details><summary>Quantity handler</summary>
+<img src="docs/testing/validation/Quantity-JS.png">
 </details>
 
 *Go back to the [top](#table-of-contents)*
