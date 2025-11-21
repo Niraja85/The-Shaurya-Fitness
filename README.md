@@ -202,7 +202,7 @@ All the user stories were further divided into milestones divided across § 3 sp
 
 Thanks to DBeaver that helped me create the diagram of models.
 
-![Database_Models]()
+![Database_Models](docs/planning/The%20Shaurya%20Fitness%20ERD.png)
 
 *Go back to the [top](#table-of-contents)*
 
@@ -640,8 +640,7 @@ This project was pieced together with the help from Code Institute's resources a
 
 I would like to take the opportunity to thank:
 
-- My family for their advice, support and help with testing.
-- My mentor and Tom from tutor support for their feedback, advice and support.
+- My friends and family for their advice, support and help with testing.
 
 *Go back to the [top](#table-of-contents)*
 
