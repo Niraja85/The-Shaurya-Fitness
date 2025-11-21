@@ -256,7 +256,7 @@ footer {
     border: 0;
 }
 
-/** General links css */
+/** General links css  to improve accessibility */
 .text-muted {
     color: #555555;
 }
@@ -265,7 +265,22 @@ a.footer-link,
 a.nav-link {
     color: #004085;   /* dark blue – high contrast on light background */
 }
+.auth-link,
+.auth-link:visited {
+    color: #8b2c03;          /* darker than the rust colour */
+    font-weight: 600;
+}
 
+.auth-link:hover,
+.auth-link:focus {
+    color: #5b1c02;
+    text-decoration: underline;
+}
+.helptext,
+.form-text,
+.text-muted {
+    color: #333333 !important;   /* darker grey for better contrast */
+}
 
 
 /* -------------------------------- Media Queries */
