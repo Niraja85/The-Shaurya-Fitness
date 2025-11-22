@@ -13,7 +13,7 @@ Project-portfolio-5
   - [Strategy](#strategy)
   - [Marketing Strategy](#marketing-strategy)
   - [Scope](#scope)
-  - [Structure](#structure)
+  - [Database Model](#database-model)
   - [Wireframes](#wireframes)
   - [Surface](#surface)
 - [Agile](#agile)
@@ -27,7 +27,6 @@ Project-portfolio-5
   - [Clothing](#clothing)
   - [Accessories](#accessories)
   - [Product Details](#product-details)
-  - [Bag / Cart](#bag--cart)
   - [Checkout](#checkout)
   - [Order Confirmation / history](#order-confirmation--history)
   - [User Profiles](#user-profiles)
@@ -199,7 +198,7 @@ All the user stories were further divided into milestones divided across § 3 sp
 - Write Readme and Testing.md
 
 
-**DATABASE MODELS**
+## Database Model
 
 Thanks to DBeaver that helped me create the diagram of models.
 
@@ -372,7 +371,7 @@ The checkout page displays a bag summary on the right side, followed by the same
 - Lastly, there is a button to "Return to Bag", should the user not be ready to checkout just yet. And a button for "Secure Checkout", with the payment amount underneath. Clicking on this will process the payment.
 - The form uses Django's form validation and cross site request forgery protection.
 
-![Checkout](docs/features/Checkout.png)
+![Checkout](docs/features/Checkout-readme.png)
 
 ## Order Confirmation / history
 
@@ -383,9 +382,8 @@ Once a user has checked out, they'll see an order confirmation page.
 - It also displays the date and time of the order, and a truncated order number. The order number is very long and is included in the order confirmation email and the URL, so not required to be shown in full here.
 - This same page can be visited via the Profile page too, to display historical orders.
 
-![Order_History](docs/features/Order-Confirmation.png)
+![Order_History](docs/features/Order-confirmation-readme.png)
 
-![Order_History_my_profile](docs/features/Order-history-my-profile.png)
 
 ## User Profiles
 
@@ -396,7 +394,7 @@ When a user is logged in, they'll have access to the "My Profile" link from the 
 - The default delivery details are used to autofill the checkout form.
 - The right side of the profile view displays any historical orders. Clicking on the order number of these will show the full order details, as mentioned above.
 
-![Profile](docs/features/Profile_Order.png)
+![Profile](docs/features/Profile-readme.png)
 
 ## Product Management
 
