@@ -238,7 +238,7 @@ The website uses a well-known and well-experienced web design pattern, to provid
 
 ----
 ## Surface
-I wanted to create a modern yet a website with neutral organic tones of color, unlike usual clothing websites that have a black and white layout. Hence chose colorsl ike like beige and rust red with a pop of light navy blue to be added on the banner and footer.
+I wanted to create a modern yet a website with neutral organic tones of color, unlike usual clothing websites that have a black and white layout. Hence chose colors like beige and rust red with a pop of light navy blue to be added on the banner and footer.
 These are the keywords to lead the brand design:
 
 - Earthy
@@ -261,7 +261,7 @@ The photographs used in throughout the app are all wonderful photographs from Un
 
 ### Bootstrap
 
-I opted for Bootstrap 4 as I followed the Boutique_Ado walkthrough project and it helped me install django countries, django version 5.2.7, django all auth and django crispy forms eith compatible versions for the project.
+I opted for Bootstrap 4 as I followed the Boutique_Ado walkthrough project and it helped me install django countries, django version 4.2.23, django all auth and django crispy forms eith compatible versions for the project.
 
 *Go back to the [top](#table-of-contents)*
 
@@ -299,7 +299,7 @@ On opening the site, users will be welcomed by a muted beige colored page with p
 - On smaller screens, the main navigation is replaced with a "hamburger" icon on the left side. Clicking on the hamburger button reveals the offcanvas menu with main navigation and its dropdown links, leaving just the search, "Account" and bag buttons visible for easy access.
 
 ![Header_Screenshot](docs/features/header.png)
-![Header-Mobile](docs/features/header-mob.png)
+![Header-Mobile](docs/features/Header-readme.png)
 
 ## Footer
 
@@ -319,7 +319,7 @@ The homepage is a celebration of the company, giving users a warm welcome to the
 - The starting image is of various accessories and a pragraph about what the website offers, that is, Actiwear for Women". It also has an 'Explore Store' button to redirect users to the Products page.
 
 - It also talk about 'what the new trends are'?
-- And lastly the image displays on how women can get answers about various fitnessa nad website related questions answered by following the FAQ page. The 'FAQ' button redirects the users to FAQ page.
+- And lastly the image displays on how women can get answers about various fitness and website related questions answered by following the FAQ page. The 'FAQ' button redirects the users to FAQ page.
 
 ![Home_Page_1](docs/features/Home-page-1.png)
 
@@ -335,14 +335,14 @@ The homepage is a celebration of the company, giving users a warm welcome to the
 ![All_Products_small_screens](docs/features/All_products-Sm-screen.png)
 
 ## Clothing
-- This link displays only Clothing dropdown list such as T-shirts, Leggings, Shorts, All Clothong and All Products links.
+- This link displays only Clothing dropdown list such as T-shirts, Leggings, Shorts, All Clothing and All Products links.
 - This has been created to make the search category easy instead of browsing through the entire Products search. User can choose the category of item they want to purchase and they will be guided only to those products.
 - A sort category is vailable on all pages of products to sort items in alphabetical order, by price(low-high) or (high to low).
 
 ![Clothing](docs/features/Clothing.png)
 
 ## Accessories
-- This link displays only Accessories dropdown list such as Socks, Sunglasses, Backpack, Shoes, All Accessories and All Products links.
+- This link displays only Accessories dropdown list such as Socks, Sunglasses, Backpack, All Accessories and All Products links.
 - This has been created to make the search category easy instead of browsing through the entire Products search. User can choose the category of item they want to purchase and they will be guided only to those products.
 - A sort category is vailable on all pages of products to sort items in alphabetical order, by price(low-high) or (high to low).
 
@@ -480,7 +480,7 @@ Please see the [Testing page](TESTING.md) for information on testing and validat
 
 ## Libraries / Frameworks
 
-- Django 5.2
+- Django 4.2
 - Bootstrap 4.6
 - Font Awesome 6
 
