@@ -18,7 +18,6 @@ Project-portfolio-5
   - [Surface](#surface)
 - [Agile](#agile)
   - [Epics](#epics)
-  - [Sprints](#sprints)
 - [Features](#features)
   - [Header](#header)
   - [Footer](#footer)

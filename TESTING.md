@@ -147,7 +147,7 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 ## PEP8 Validation
 
-All pages were run through the official [Pep8ci](https://pep8ci.herokuapp.com/) validator to ensure all code was pep8 compliant. No Errors were found. errors due to long lines were corrected.
+All pages were run through the official [Pep8ci](https://pep8ci.herokuapp.com/) validator to ensure All code was pep8 compliant. No Errors were found. errors due to long lines were corrected.
 
 *Go back to the [top](#table-of-contents)*
 
