@@ -16,7 +16,6 @@
   - [PEP8 Validation](#pep8-validation)
 - [Testing](#testing)
   - [Manual Testing (BDD)](#manual-testing-bdd)
-  - [Automated Testing (TDD)](#automated-testing-tdd)
 - [Bugs](#bugs)
 
 # Performance
@@ -67,7 +66,7 @@
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards. The 2 errors seen are beacuse of not using labels for form-control which is for all pages and a contrast error for signin on register page which is a default in allauth account.
 
 <details><summary>Home-Wave</summary>
-<img src="docs/testing/wave/Wave-Home-page.png">
+<img src="docs/testing/wave/Home-Wave.png">
 </details>
 <details><summary>Products</summary>
 <img src="docs/testing/wave/Wave-Products.png">
@@ -75,6 +74,10 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <details><summary>Product Details</summary>
 <img src="docs/testing/wave/Wave-Product-Details.png">
 </details>
+<details><summary>Register</summary>
+<img src="docs/testing/wave/Signup-accessibility.png">
+</details>
+
 <details><summary>Faq</summary>
 <img src="docs/testing/wave/Wave-Faq.png">
 </details>
