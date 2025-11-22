@@ -46,7 +46,7 @@ Project-portfolio-5
   - [Installation](#installation)
 - [Deployment](#deployment)
   - [Prerequisites](#prerequisites-1)
-  - [Deployment to Heroku](#deployment-to-heroku)
+  - [Heroku Deployment](#heroku-deployment)
 - [Future Development](#future-development)
 - [Credits](#credits)
   - [Media](#media)
