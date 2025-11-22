@@ -232,8 +232,7 @@ a.category-badge > span.badge:hover {
     color: #555555;
 }
 a.product-category-link,
-a.footer-link,
-a.nav-link {
+a.footer-link {
     color: #004085;   /* dark blue – high contrast on light background */
 }
 a.auth-link {
