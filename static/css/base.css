@@ -297,17 +297,22 @@ footer {
 
 /* Header icon colours (desktop + mobile) */
 
-/* Default: rust icons */
-header a.nav-link i,
-header a.nav-link svg {
+header .fas,
+header .fa-solid,
+header .far,
+header .fa-regular {
     color: var(--rust) !important;
 }
 
 /* Hover / focus: blue icons */
-header a.nav-link:hover i,
-header a.nav-link:focus i,
-header a.nav-link:hover svg,
-header a.nav-link:focus svg {
+header .fas:hover,
+header .fas:focus,
+header .fa-solid:hover,
+header .fa-solid:focus,
+header .far:hover,
+header .far:focus,
+header .fa-regular:hover,
+header .fa-regular:focus {
     color: var(--blue) !important;
 }
 
