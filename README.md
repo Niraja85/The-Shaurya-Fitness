@@ -53,6 +53,7 @@ Project-portfolio-5
 - [Credits](#credits)
   - [Media](#media)
   - [Code](#code)
+- [Note](#note)
 - [Acknowledgements](#acknowledgements)
 
 # Introduction
@@ -634,6 +635,11 @@ This project was pieced together with the help from Code Institute's resources a
 - [Python's documentation](https://docs.python.org/3/index.html)
 - [Django's documentation](https://docs.djangoproject.com/en/3.2/)
 - [Bootstrap's documentation](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
+
+
+# Note
+
+The project could not be submitted on time as the checkout page was not working on Heroku despite working on local. After troubleshooting for a week with Student Care support, they recreated the database on original day of submission as a last resort. Hence, the project could not be submitted as lot of things had to be done. Thank you for your understanding.
 
 
 # Acknowledgements

@@ -193,6 +193,7 @@ Yes | Product Images not loading on Heroku  | Change Image field to 'CloudinaryF
 Yes | New profile not being created on Heroku.Shows 404 error | Added Crispy_Bootstrap4 Template pack which was missiong in settings.py
 Yes | Checkout page showing 404 error on Heroku | Added Development = 1 in config vars in Heroku, which showed additional line added in Stripe secret key, removing the new line added removed the error.(This is the error which took the maximum time to fix, hence late submission).
 Yes | Order history not seen on Heroku | Correcting checkout error showed the Order History as well.
+Yes | Heroku was loading the cached version of base.css and not the latest one. | I ran the command python manage.py collectstatic to generate new hashed filenames so browsers load updated versions.
 
 
 
