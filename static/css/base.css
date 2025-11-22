@@ -295,6 +295,21 @@ footer {
 }
 
 
+/* Header icon colours (desktop + mobile) */
+
+/* Default: rust icons */
+header a.nav-link i,
+header a.nav-link svg {
+    color: var(--rust) !important;
+}
+
+/* Hover / focus: blue icons */
+header a.nav-link:hover i,
+header a.nav-link:focus i,
+header a.nav-link:hover svg,
+header a.nav-link:focus svg {
+    color: var(--blue) !important;
+}
 
 
 /* -------------------------------- Media Queries */
